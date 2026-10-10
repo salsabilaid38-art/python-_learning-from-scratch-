@@ -106,3 +106,27 @@ elif operation=="/":
 else:
     print("invalid operation")
 print("thank you for using our calculator")
+#exercises to practice what we have learned
+#first write a programme that save the name , the age , the hight ,a nd the situation of a person using variables and print them
+name="assia"
+age=20
+hight=1.65
+situation="student"
+print("name",name)
+print("age",age)
+print("hight",hight)
+print("situation",situation)
+#we have a small stoor with four books the price of each book is 15 lets calculate the total price
+price=15
+quantity=4
+totale_price=price*quantity
+print("the total price is ",totale_price)
+#lets write a prgramme usin if 
+#we have
+age1 =18
+age2=20
+if age1<age2:
+    print("true")
+else:
+    print("false")
+    
