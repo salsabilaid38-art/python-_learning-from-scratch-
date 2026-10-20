@@ -173,4 +173,7 @@ print(add(3, 4))
 print(subtract(10, 2))
 print(multiply(3, 4))
 print(divide(8, 2))
-
+# a happy birthday function
+def happy_birthday():
+    print("happy birthday to you")
+happy_birthday():
