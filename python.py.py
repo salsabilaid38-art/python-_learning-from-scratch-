@@ -129,4 +129,48 @@ if age1<age2:
     print("true")
 else:
     print("false")
-    
+# 20--10--2026
+# functions 
+def say_hello(name):
+    print("Hello",name)
+say_hello("assia")
+def add(a, b):
+    print(a + b)
+add(3, 4)
+add(5, 6)
+# the return opotion
+def add(a, b):
+    return a + b
+add(3, 4)
+print(add(3, 4))
+#if with a function
+def check_number(number):
+    if number > 0:
+        return "Positive"
+    elif number < 0:
+        return "Negative"
+    else:
+        return "Zero"
+print(check_number (5))
+print(check_number (-2))
+print (check_number(0))
+###a very simple calculater app    #
+def add (a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        return "Error: division by zero"
+    return a / b
+
+print(add(3, 4))
+print(subtract(10, 2))
+print(multiply(3, 4))
+print(divide(8, 2))
+
