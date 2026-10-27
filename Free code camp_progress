@@ -1,0 +1,72 @@
+# free code camp pyhton progress , codes from the course 
+# part one 
+# codes from introduction to python 
+#understanding Variables and Data type 
+name = 'Alice'
+print(name)
+print(type(name))
+
+is_student = True
+print(is_student, type(is_student))
+
+age = 20
+print(age, type(age))
+
+
+score = 80.5
+print(isinstance(score, int))
+print(isinstance(score, float))
+
+
+#Introduction to strings
+first_name = 'John'  
+last_name = 'Doe'  
+print(first_name)  
+print(last_name)  
+full_name = first_name + ' ' + last_name  
+print(full_name)  
+address = '123 Main Street'  
+address += ', Apartment 4B'  
+print(address)  
+
+# the code changes during the lesson 
+first_name = 'John'
+last_name = 'Doe'
+full_name = first_name + ' ' + last_name
+address = '123 Main Street'
+address += ', Apartment 4B'
+employee_age = 28
+employee_info = full_name + ' is ' + str(employee_age) + ' years old'
+print(employee_info)
+#more edditing 
+first_name = 'John'
+last_name = 'Doe'
+full_name = first_name + ' ' + last_name
+address = '123 Main Street'
+address += ', Apartment 4B'
+employee_age = 28
+employee_info = full_name + ' is ' + str(employee_age) + ' years old'
+print(employee_info)
+experience_years = 5 
+experience_info = "Experience: "+str(experience_years)+" years"
+print(experience_info)
+
+# The F string 
+employee_card =f"Employee: {full_name}"
+#ssmall hint for the hard part
+employee_card = f'Employee: {full_name} | Age: {employee_age}'
+Your code defines employee_card before the position and salary variables, so the first f‑string does not include those values. Remove or replace that initial employee_card assignment with the f‑string that incorporates position and salary, and try again.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
