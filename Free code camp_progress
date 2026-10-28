@@ -80,7 +80,11 @@ initials = employee_code[9:11]
 print(initials)
 last_three = employee_code[-3:]
 print(last_three)
-
+### the thrid task is to build an amployee profile validator
+#Start by creating a variable named email and assign it the string alice.johnson@company.com.
+email = "alice.johnson@company.com"
+email = 'alice.johnson@company.com'
+print(f'Email: {email}')
 
 
 
